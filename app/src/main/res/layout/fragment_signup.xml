@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,40 +7,54 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"/>
+
     <EditText
+        android:gravity="center"
+        android:layout_marginTop="50dp"
         android:id="@+id/etRegisterUN"
-        android:layout_margin="10dp"
-        android:hint="Enter Username"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Enter Username" />
 
     <EditText
+        android:gravity="center"
+        android:layout_marginTop="10dp"
         android:id="@+id/etRegisterPW"
-        android:layout_margin="10dp"
-        android:hint="Enter Password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Enter Password" />
+
 
     <EditText
+        android:gravity="center"
+        android:layout_marginTop="10dp"
         android:id="@+id/etRegisterConPW"
-        android:layout_margin="10dp"
-        android:hint="Confirm Password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password" />
 
     <EditText
-        android:id="@+id/etRegisterContact"
-        android:layout_margin="10dp"
-        android:hint="Enter Contact No."
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etRegisterEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Enter Email ID" />
 
     <Button
         android:id="@+id/btnSignup"
-        android:layout_margin="20dp"
         android:textSize="20dp"
-        android:text="Register"
+        android:text="Signup"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"/>
+
 
 </LinearLayout>
