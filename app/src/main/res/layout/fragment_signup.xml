@@ -3,21 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="fragments.Signup">
+    android:gravity="center"
+    tools:context="fragments.Login">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:textSize="35dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SIGNUP"/>
 
     <EditText
         android:gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/etRegisterUN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,7 +25,6 @@
         android:layout_height="wrap_content"
         android:hint="Enter Password" />
 
-
     <EditText
         android:gravity="center"
         android:layout_marginTop="10dp"
@@ -40,21 +33,12 @@
         android:layout_height="wrap_content"
         android:hint="Confirm Password" />
 
-    <EditText
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:id="@+id/etRegisterEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Email ID" />
-
     <Button
-        android:id="@+id/btnSignup"
+        android:id="@+id/btnRegister"
         android:textSize="20dp"
-        android:text="Signup"
+        android:text="Register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"/>
-
+        android:layout_marginTop="50dp"/>
 
 </LinearLayout>

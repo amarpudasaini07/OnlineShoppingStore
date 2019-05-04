@@ -23,9 +23,10 @@
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Username" />
+        android:hint="Enter Password" />
 
     <Button
+        android:id="@+id/btnLogin"
         android:textSize="20dp"
         android:text="Login"
         android:layout_width="match_parent"
