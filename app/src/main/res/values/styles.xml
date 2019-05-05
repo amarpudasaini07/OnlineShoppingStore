@@ -10,6 +10,6 @@
 
     <style name="AppTheme.AppBarOverlay"></style>
 
-    <style name="AppTheme.PopupOverlay"></style>
+    <style name="AppTheme.PopupOverlay">@null</style>
 
 </resources>
