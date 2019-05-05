@@ -1,4 +1,4 @@
-package adapter;
+package com.e.onlineshoppingstore.adapter;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;

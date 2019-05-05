@@ -1,4 +1,4 @@
-package fragments;
+package com.e.onlineshoppingstore.fragments;
 
 
 import android.content.SharedPreferences;

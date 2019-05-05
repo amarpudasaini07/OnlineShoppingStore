@@ -5,9 +5,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import fragments.Login;
-import fragments.Signup;
-import adapter.ViewPagerAdapter;
+import com.e.onlineshoppingstore.fragments.Login;
+import com.e.onlineshoppingstore.fragments.Signup;
+import com.e.onlineshoppingstore.adapter.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
