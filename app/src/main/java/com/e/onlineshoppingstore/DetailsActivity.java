@@ -13,15 +13,16 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        itemname=findViewById(R.id.itemName);
-        itemprice=findViewById(R.id.itemPrice);
-        itemdesc=findViewById(R.id.itemdesc);
+        itemname=findViewById(R.id.itemName_view);
+        itemimg=findViewById(R.id.image_view);
+        itemprice=findViewById(R.id.itemPrice_view);
+        itemdesc=findViewById(R.id.itemDesc_View);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle!=null) {
             itemname.setText(bundle.getString("itemname"));
             itemprice.setText(bundle.getString("itemprice"));
-            itemimg.setImageResource(Integer.parseInt(bundle.getString("itemimg")));
+            itemimg.setImageResource(Integer.parseInt(bundle.getString("itemimage")));
             itemdesc.setText(bundle.getString("itemdesc"));
         }
     }

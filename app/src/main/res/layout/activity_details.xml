@@ -6,33 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".DetailsActivity"
     android:orientation="vertical">
-<ImageView
+
+    <ImageView
+    android:id="@+id/image_view"
     android:layout_width="400dp"
     android:layout_height="400dp" />
     <TextView
-        android:id="@+id/itemName"
+        android:id="@+id/itemName_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:hint="Item name"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/itemPrice"
+        android:id="@+id/itemPrice_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:hint="Item Price"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/itemdesc"
+        android:id="@+id/itemDesc_View"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:hint="Description"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 </LinearLayout>
